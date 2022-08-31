@@ -1,0 +1,194 @@
+@font-face {
+  font-family: 'AsusRog' ;
+  src: url(font/fonts.ttf);
+}
+@font-face {
+  font-family: 'FranklinGothic';
+  src: url(font/font2.ttf);
+}
+@font-face {
+  font-family: 'BerlinSan';
+  src: url(font/font3.ttf);
+}
+body{
+  background-color: #3e4643;
+}
+.heading{
+font-family: 'FranklinGothic' ;
+color: white;
+font-style: italic;
+}
+.clr{
+color: #ff9900;
+}
+.belowheading{
+  font-family: 'AsusRog';
+  color: white;
+  font-size: 1rem;
+
+}
+.follow{
+  font-family: 'FranklinGothic' ;
+  color: #ff9900;
+  text-align: center;
+  display: inline;
+}
+.follow1{
+  font-family: 'FranklinGothic' !important;
+  color: white !important;
+}
+.readmore{
+  font-family: 'FranklinGothic' ;
+  color: #ff9900;
+  text-align: center;
+  padding: 3% 25%;
+}
+.gradient{
+  color: black;
+  width: 1000px;
+}
+
+.newUl{
+  margin-left: -.01rem;
+}
+.firstUl{
+  margin-left: 4rem;
+}
+.nav-link{
+  font-size: 1rem;
+  color: white;
+  font-family: 'AsusRog';
+}
+.logos{
+  padding-bottom: 2rem;
+}
+
+
+#title{
+  overflow: hidden;
+
+
+}
+.container-fluid{
+padding: .5% 8%;
+
+}
+.container-fluid1{
+  background-color:#111313;
+  margin :.5% 15%;
+  border-radius: 35px;
+}
+.button-Download{
+  margin:3% 2% 5% 0;
+}
+.carousel-item{
+}
+.heros{
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+.carousel-inner.heros {
+  width: 100%;
+}
+.partner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+  padding-top:3%;
+}
+.index {
+  padding: 10px 25px;
+}
+.carousel {
+  text-align: center;
+}
+.half {
+  text-align: center;
+}
+
+
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'AsusRog';
+  color: #030303;
+  font-size: 15px;
+  background: #ffffff;
+  padding: 10px 20px 10px 20px;
+
+}
+.power{
+  font-family:'FranklinGothic';
+  color: white;
+  text-align: center;
+}
+.gradient{
+  width: 80px;
+  margin: auto;
+  color: black;
+  border-radius: 20px;
+}
+
+.nav-link:hover{
+  color: white !important;
+}
+@media (max-width:1334px){
+.newUl{
+  margin-left: 3rem;
+}
+.testimonial-image{
+max-width: 100%;
+align-items: center;
+}
+#roadmap{
+margin-left: 100px;
+}
+#whitepaper{
+  margin-left: 85px;
+}
+}
+#features{
+  padding:3% 15%;
+
+}
+#teams{
+  padding: 3% 10%;
+}
+.item{
+  padding:15px 15px;
+
+}
+.item1{
+  padding: 17px 15px;
+  margin-top: 10px;
+}
+.roadmap{
+  margin-left: 150px;
+}
+.whitepaper{
+  margin-left: 150px;
+
+}
+.team{
+  font-family: 'AsusRog' ;
+  color: #ff9900;
+  text-align: center;
+}
+.itemt{
+  padding-top:15px;
+  padding-bottom: 50px;
+
+}
+.hero1{
+  margin-left: 10px;
+}
+.txt{
+  font-family: 'AsusRog' ;
+  color: white;
+  text-align: center;
+}
